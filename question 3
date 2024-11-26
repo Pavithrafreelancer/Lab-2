@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+float a, ta, na;
+printf("Enter number of units used");
+scanf ("%f",&a);
+if (a<=50)
+ta=a*0.5;
+else if (a>50 & a<=150)
+ta = (50*0.5)+(a-50)*0.75;
+else if (a >150 & a<=250) 
+ta= (50*0.5)+(100*0.75) + (0-150)*1.2; 
+else
+ta= (50*0.5)+(100*0.75) + (100) *1.2+(a-250); 
+na=ta+ta+0.2;
+printf ("Electricity bill = %f", na); 
+return 0;
+}
