@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+float p,c,m,b,cs,pc;
+printf("Enter marks in Phy, Maths, Chem,Bio,CS");
+scanf("%f%f%f%f%f",&p,&c,&m,&b,&cs);
+pc=(p+c+m+b+cs)/5;
+if (pc>=90)
+printf("Grade A"); 
+else if (pc>=80)
+printf ("Grade B"); 
+else if (pc>=70)
+printf("Grade C")
+else if (pc>=60)
+printf ("Grade D");
+else if (pc=40)
+printf("Grade E");
+else
+printf("Grade F");
+return 0;
+}
